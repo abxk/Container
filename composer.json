@@ -1,0 +1,32 @@
+{
+    "name": "abxk/container",
+    "description": "Wechat development depends on",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lixuecong",
+            "email": "1126392029@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "abxk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "abxk\\test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "abxk/helper": "^1.0",
+        "psr/container": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "mockery/mockery": "^1.5",
+        "symfony/var-dumper": "^5.4"
+    }
+}
